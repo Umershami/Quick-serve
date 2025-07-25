@@ -1,0 +1,8 @@
+CREATE TABLE workers (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  category VARCHAR(50) NOT NULL,
+  contact VARCHAR(30) NOT NULL,
+  shop_address VARCHAR(255) NOT NULL,
+  is_approved TINYINT(1) DEFAULT 0
+);
